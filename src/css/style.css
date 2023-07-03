@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    @apply text-gray-600
+}
+
+.logo {
+    @apply flex font-medium items-center text-gray-900 mb-4 md:mb-0
+}
+
+.navbar-c {
+    @apply md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center
+}
+
+.nav-link-c {
+    @apply mr-5 hover:text-gray-900 cursor-pointer
+}
+
+.bg-btn {
+    @apply inline-flex items-center bg-green-600 text-[#fff] border-0 py-1 px-3 focus:outline-none hover:bg-[#fff] hover:text-green-600 rounded text-base mt-4 md:mt-0
+}
+
+.banner-sec {
+    @apply py-[60px]
+}
+
+.banner-img {
+    @apply w-[100%] object-cover rounded-[30px]
+}
+
+.banner-img img {
+    @apply w-[100%]
+}
+
+.main-heading {
+    @apply text-[40px] font-[500] leading-[45px]
+}
+
+.sub-para {
+    @apply lg:text-[17px] md:text-[17px] text-[15px] lg:pt-[20px] md:pt-[15px] pt-[10px]
+}
